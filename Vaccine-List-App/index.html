@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>DS | JS DOM Tutorial</title>
+  </head>
+
+  <body>
+  	<div id="wrapper">
+
+	    <header>
+	    	<div id="page-banner">
+
+	    		<h1 class="title">Name of Citizen</h1>
+                <p>Vaccination Status</p>
+
+                <form id="search-books">
+                    <input type="text" placeholder="Search vaccinations..."/> <!--CREATING THE SEARCH FIELD FOR THE BOOKS-->
+                </form>
+
+	    	</div>
+
+	    </header>
+
+	    <div id="book-list">
+
+	    	<h2 class="title">Vaccination History</h2>
+
+	    	<ul>
+
+	    		<li>
+	    			<span class="name">Sinopharm</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+
+	    		<li>
+	    			<span class="name">Pfizer</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+
+	    		<li>
+	    			<span class="name">Astrazeneca</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+
+	    		<li>
+	    			<span class="name">Johnson&Johnson</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+
+	    	</ul>
+
+	    </div>
+
+	    <form id="add-vaccine">
+			<input type="checkbox" id="hide" />
+        	<label for="hide">Hide all books</label>
+	    	<input type="text" placeholder="Add a vaccine..." />
+	    	<button>Add</button>
+	    </form>
+
+    </div>
+
+    <script src="app.js"></script>
+
+  </body>
+  
+</html>
