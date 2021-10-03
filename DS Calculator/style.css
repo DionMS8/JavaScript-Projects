@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+    font-family: "Montserrat";
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 300px;
+    height: 420px;
+    background-color: rgb(165, 11, 165);
+    box-shadow: 0px 0px 10px #333;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+#display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    width: 220px;
+    font-size: 28px;
+    color: white;
+    background-color: rgb(190, 174, 174);
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(123, 240, 14);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 015s;
+}
+
+.btn:hover {
+    transition: 0.15s;
+    box-shadow: 0px 0px 5px black;
+}
+
+#add, #subtract, #multiply, #divide, #clear, #equal, #dot  {
+    color: white;
+    background-color: rgb(2, 134, 2);
+}
+
+
