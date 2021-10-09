@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    background-color: goldenrod;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    padding: 100px;
+    height: 320px;
+    width: 250px;
+    border: 5px solid black;
+    background: linear-gradient(rgb(201, 62, 62),red)
+}
+
+#qrcode {
+    border: 2px solid black;
+    background-color: white;
+    height: 250px;
+}
+
+button {
+    background-color: grey;
+    border: 2px solid black;
+}
+
+
+input {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(107, 73, 73);
+}
