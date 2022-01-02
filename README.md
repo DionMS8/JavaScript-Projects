@@ -20,6 +20,4 @@ This repo contains various mini-projects that I have created while practicing fr
 
 - Vaccine List CRUD App ✔
 - Calculator
-- FAQ Feature
 - Quiz
-- Rock Paper Scissors 
