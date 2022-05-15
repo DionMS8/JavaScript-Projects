@@ -14,10 +14,7 @@ This repo contains various mini-projects that I have created while practicing fr
 ## Technologies
 - HTML5
 - CSS3
-- Javascript ES
+- Javascript (ES6+)
 
 ## Project Titles
 
-- Vaccine List CRUD App ✔
-- Calculator
-- Quiz
